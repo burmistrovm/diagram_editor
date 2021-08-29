@@ -1,0 +1,43 @@
+.static {
+  cursor: not-allowed;
+  fill: #888;
+}
+.draggable {
+  cursor: move;
+  fill: #007bff;
+}
+
+.toolbar {
+  position: absolute;
+  top: 12px;
+  left: 480px;
+  width: 240px;
+  margin-left: -120px;
+  text-align: center;
+}
+
+.tool:not(:last-child) {
+  margin-right: 10px;
+}
+
+.tool {
+  fill: #a3a4c3;
+  cursor: pointer;
+}
+.tool.active {
+  fill: #b52d0c;
+}
+
+.library {
+  border: 2px solid #a3a4c3;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  margin-top: 10px;
+}
+.library svg {
+  cursor: pointer;
+}
+.library svg:not(:last-child) {
+  padding-right: 6px;
+}
